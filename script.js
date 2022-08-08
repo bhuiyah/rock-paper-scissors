@@ -61,17 +61,17 @@ function playRound(player, computer){
 }
 
 function game(){
-    while(PlayerScore!==5 || ComputerScore!==5){
+    for(let i = 0; i<=5; i++){
         ComputerInput = getComputerChoice();
         UserInput = (prompt("Rock, Paper, Scissors?"));
         UserInput = UserInput.toLowerCase();
         playRound(UserInput, ComputerInput);
         console.log('User: '+PlayerScore+ ' Computer: '+ComputerScore);
     }
-    if(PlayerScore==5){
+    if(PlayerScore>ComputerScore){
         console.log('Player Wins!');
     }
-    else if(ComputerScore==5){
+    else if(ComputerScore>PlayerScore){
         console.log('Computer Wins');
     }
     ComputerScore = 0;

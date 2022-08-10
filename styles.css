@@ -1,0 +1,65 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    background-color: #F1948A;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.first-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.author{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.play{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    justify-content: space-evenly;
+}
+
+.play-button{
+    background: #FADBD8;
+    padding: 16px 16px;
+    border-radius: 8px;
+    border: 1px solid;
+    width: 120px;
+}
+
+.play-button:hover {background-color: #E6B0AA}
+
+#gamePlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#status{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.winner{
+    font-weight: bolder;
+    color: #FDFEFE ;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pics/rps.png"
 </head>
-<body>
+<body>  
+    <div class="first-block">
+        <div class="title">Rock Paper Scissors!</div>
+        <div class="author">by  <a href="https://github.com/bhuiyah"> bhuiyah</a></div>
+    </div>
     
+
+    <div class="play">
+        <button type="button" class="play-button" id="rock">Rock</button>
+        <button type="button" class="play-button" id="paper">Paper</button>
+        <button type="button" class="play-button" id="scissors">Scissors</button>
+    </div>
+
+    <div id="gamePlay">
+        <div class="game-status" id="status">Game Status:</div>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3 winner"></div>
+        
+    </div>
+
 </body>
 </html>
